@@ -2,3 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+
+.test{
+    color: blueviolet;
+    cursor:pointer;
+}
+
+.test2{
+    color: rgb(43, 198, 226);
+    cursor: url("https://www.pngwing.com/en/free-png-zilhv"),auto;
+}

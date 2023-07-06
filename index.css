@@ -25,9 +25,46 @@
     cursor: pointer;
 }
 .item:hover{
-    color: blue;
+    color: rgb(245, 109, 30);
 }
 
 .logo-photo{
     width: 120px;
+}
+
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color:white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgba(53, 53, 53 ));
+}
+
+.title{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.btn{
+    padding: 8px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
 }
